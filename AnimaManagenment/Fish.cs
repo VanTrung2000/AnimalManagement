@@ -24,11 +24,7 @@ namespace AnimaManagenment
         }
         public override string ToString()
         {
-            Console.WriteLine(GetType());
-            Console.WriteLine("Id:" + Id);
-            Console.WriteLine("Name:" + Name);
-            Console.WriteLine("Age:" + Age);
-            return "";
+             return  "ID :" + Id + " Name : " + Name + " Age : " + Age; 
 
         }
     }
